@@ -1,0 +1,63 @@
+/* oregano-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oregano';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/oregano-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* abyssinica-sil-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Abyssinica SIL';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abyssinica-sil-v9-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+html {font-size: 16px;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: false;
+  line-height: 1.65;
+  background-color: #280003;
+}
+
+h1, h2 {
+    font-family: "Oregano", 'Open Sans', sans-serif;
+    font-weight: true;
+    line-height: 1.15;
+    color: #EEE0CB;
+    max-width: 1000px;
+}
+
+h1,
+.text-size-h1 {
+  font-family: 'Oregano', sans-serif;
+  font-weight: 700;
+  margin-top: 0;
+  font-size: 3.05em;
+}
+
+h2,
+.text-size-h2 { 
+    font-size: 2.44em; 
+}
+
+p, li {
+    font-family: "Abyssinica SIL";
+    font-size: 1em;
+    color: #BAA898;
+    max-width: 1000px;
+}
+
+h2 {
+    border-bottom: 2px solid #C2847A;
+}
+
+small,
+.text-small {
+  font-size: 0.64em;
+}
