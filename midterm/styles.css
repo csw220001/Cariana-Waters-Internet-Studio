@@ -61,6 +61,10 @@ figcaption {
     padding: 5px;
 }
 
+.hero {
+    background-image: url(images/peppermint_forest.png);
+}
+
 .map {
     background-color: #f8b3ff;
 }
