@@ -63,6 +63,7 @@ figcaption {
 
 .hero {
     background-image: url(images/peppermint_forest.png);
+    height: 500px;
 }
 
 .map {
