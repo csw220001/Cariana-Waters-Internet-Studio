@@ -63,7 +63,13 @@ figcaption {
 
 .hero {
     background-image: url(images/peppermint_forest.png);
-    height: 500px;
+    height: 750px;
+}
+
+.hero h1 {
+    color: #6f73d2;
+    font-size: 60px;
+    padding-top: 350px;
 }
 
 .map {
@@ -97,4 +103,8 @@ figcaption {
 ul li:hover {
     background-color: #6f73d2;
     color: #EDE3E9;
+}
+
+.lolwhoops {
+    color: #EBC3DB;
 }
