@@ -1,9 +1,31 @@
+/* abeezee-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'ABeeZee';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/abeezee-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* acme-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/acme-v27-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
     background-color: #EDE3E9;
 }
 
 h1, h2, h3, h4, h5, h6, ul, p {
     color: #292F36;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Acme', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 ul {
@@ -29,6 +51,14 @@ li a {
 
 h1 {
     text-align: center;
+}
+
+p, ul, figcaption, footer {
+    font-family: 'ABeeZee', Geneva, Verdana, sans-serif;
+}
+
+p {
+    margin-left: 2%;
 }
 
 figure {
@@ -86,13 +116,19 @@ footer div {
 
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/peppermint_forest.png);
-    height: 750px;
+    height: auto;
+    width: auto;
+    margin-left: -25px;
+    margin-right: -25px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero h1 {
     color: #EDE3E9;
     font-size: 60px;
     padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 .map {
@@ -104,7 +140,7 @@ footer div {
     float: right;
     border: none;
     margin-left: none;
-    margin-right: none;
+    margin-right: 3%;
 }
 
 .button {
