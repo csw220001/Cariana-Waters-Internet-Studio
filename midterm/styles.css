@@ -186,21 +186,31 @@ ul li a:hover {
 
 .gumdrop {
     text-align: center;
+    background-image: linear-gradient(rgba(66, 135, 245, .5), rgba(66, 135, 245, .5)), url(images/blue\ gumdrop.jpg);
     background-color: #6f73d2;
+    background-size: 300% 300%;
+    background-position: -450px -500px;
     border-radius: 63% 37% 39% 61% / 35% 31% 69% 65%;
     width: fit-content;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 3%;
-    padding-bottom: 3%;
+    padding-bottom: 4%;
     margin-bottom: 60px;
     position: relative;
-    left: 82%;
+    left: 79%;
+}
+
+.gumdrop h3, .gumdrop p {
+    color: #EDE3E9;
 }
 
 .muffin {
     text-align: center;
+    background-image: linear-gradient(rgba(245, 196, 127, .75), rgba(245, 196, 127, .75)), url(images/muffin.jpg);
     background-color: wheat;
+    background-size: 300% 300%;
+    background-position: -450px -400px;
     width: fit-content;
     aspect-ratio: 1/1;
     padding: 2%;
