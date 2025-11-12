@@ -29,7 +29,6 @@
 
 /* Main CSS */
 
-
 html {
     font-size: 16px;
     background-image: url(images/Red\ Sea.png);
@@ -83,10 +82,23 @@ small,
   font-size: 0.64em;
 }
 
+/* End font sizing */
+
+img {
+    max-width: 20%;
+}
+
 .content {
     background-color: yellow;
     margin: 200px;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 5px 10px 5px rgba(125, 38, 7, 0.75);
+}
+
+.player {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    gap: 120px;
 }
