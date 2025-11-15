@@ -2,11 +2,19 @@ body {
     height: 100%;
     display: grid;
     place-items: start center;
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='2000' height='560' preserveAspectRatio='none' viewBox='0 0 2000 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1017%26quot%3b)' fill='none'%3e%3crect width='2000' height='560' x='0' y='0' fill='rgba(255%2c 109%2c 109%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c167 C 133.4%2c145.4 400.2%2c42.8 667%2c59 C 933.8%2c75.2 1067.4%2c236.6 1334%2c248 C 1600.6%2c259.4 1866.8%2c142.4 2000%2c116L2000 560L0 560z' fill='rgba(209%2c 69%2c 69%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c320 C 133.4%2c348.8 400.2%2c471.2 667%2c464 C 933.8%2c456.8 1067.4%2c285.6 1334%2c284 C 1600.6%2c282.4 1866.8%2c421.6 2000%2c456L2000 560L0 560z' fill='rgba(173%2c 21%2c 21%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1017'%3e%3crect width='2000' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='2500' height='2000' preserveAspectRatio='none' viewBox='0 0 2500 2000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1021%26quot%3b)' fill='none'%3e%3crect width='2500' height='2000' x='0' y='0' fill='rgba(126%2c 10%2c 10%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c1093.486C216.964%2c1125.773%2c475.417%2c1139.264%2c636.416%2c990.283C798.16%2c840.612%2c708.813%2c565.719%2c791.212%2c361.335C868.042%2c170.764%2c1119.251%2c46.446%2c1099.383%2c-158.067C1079.626%2c-361.447%2c840.719%2c-458.651%2c697.405%2c-604.304C564.521%2c-739.357%2c468.217%2c-922.516%2c288.419%2c-982.265C106.575%2c-1042.694%2c-87.535%2c-978.223%2c-272.033%2c-926.461C-458.565%2c-874.129%2c-675.023%2c-839.836%2c-785.79%2c-680.891C-895.314%2c-523.729%2c-805.957%2c-309.407%2c-834.098%2c-119.925C-862.422%2c70.793%2c-1011.77%2c251.38%2c-951.442%2c434.509C-890.457%2c619.631%2c-685.543%2c706.428%2c-525.314%2c817.404C-359.333%2c932.364%2c-199.705%2c1063.768%2c0%2c1093.486' fill='%23650808'%3e%3c/path%3e%3cpath d='M2500 2635.103C2628.354 2654.185 2763.531 2649.084 2878.635 2589.168 2998.997 2526.515 3115.895 2428.163 3149.908 2296.803 3183.06 2168.7690000000002 3063.349 2052.418 3051.7290000000003 1920.673 3039.064 1777.087 3157.116 1619.336 3079.443 1497.91 3003.2780000000002 1378.841 2825.589 1392.815 2689.545 1354.47 2555.149 1316.5900000000001 2423.5190000000002 1245.283 2286.989 1274.5520000000001 2146.638 1304.6399999999999 2041.784 1413.496 1940.367 1515.076 1832.2350000000001 1623.3809999999999 1675.567 1729.185 1680.362 1882.154 1685.267 2038.645 1862.6100000000001 2125.188 1963.252 2245.125 2035.276 2330.958 2096.757 2420.546 2187.4049999999997 2486.407 2282.684 2555.633 2383.508 2617.785 2500 2635.103' fill='%23970c0c'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1021'%3e%3crect width='2500' height='2000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
     background-repeat: no-repeat;
-    background-color: #AD1515;
+    background-color: rgba(126, 10, 10, 1);
     text-align: center;
     padding: 30px;
+}
+
+h1 {
+    color: #eb3b3b;
+}
+
+.summary {
+    margin-bottom: 70px;
 }
 
 .grid {
@@ -17,7 +25,11 @@ body {
 }
 
 .grid div {
-    padding: 20px;
+    padding: 10px;
     border-radius: 20px;
-    background-color: bisque;
+    background-color: #eb3b3b;
+}
+
+.grid img {
+    max-height: 250px;
 }
