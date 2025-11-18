@@ -1,3 +1,21 @@
+/* fjalla-one-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fjalla One';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fjalla-one-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fraunces-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fraunces-v38-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 body {
     height: 100%;
     display: grid;
@@ -6,6 +24,11 @@ body {
     background-color: rgba(126, 10, 10, 1);
     text-align: center;
     padding: 30px;
+    font-family: 'Fjalla One';
+}
+
+h1, h2 {
+    font-family: 'Fraunces';
 }
 
 h1, p {
