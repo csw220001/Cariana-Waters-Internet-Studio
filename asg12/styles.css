@@ -14,6 +14,10 @@ h1, p {
 
 .summary {
     margin-bottom: 0px;
+    background-color: #eb3b3b;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
 }
 
 .grid {
